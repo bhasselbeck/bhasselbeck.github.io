@@ -1,0 +1,1 @@
+These files don't need to be committed.  They are used to compile handlebars.
