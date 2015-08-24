@@ -30,7 +30,7 @@ var socialContent = function(post) {
     '</div>' +
     '<div class="desc">' +
     '<span class="desc-title">' + post.message.substr(0, 28) + '...</span>' +
-    '<span class="desc-text">Check out this post</span>' +
+    '<span class="desc-text">Check it out</span>' +
     '</div>' +
     '</div>' +
     '</div>';
