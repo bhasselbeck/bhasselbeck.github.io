@@ -1,5 +1,5 @@
 var SocialMedia = function() {
-  this.apiUrl = "http://eebhasselbeckdev.prod.acquia-sites.com/v1";
+  this.apiUrl = "http://api.bhasselbeck.local/v1";
 };
 
 SocialMedia.prototype.request = function(url, callback) {
@@ -23,17 +23,13 @@ SocialMedia.prototype.getSocial = function(platform, callback) {
 
 var socialContent = function(post) {
   var output = '';
-  output += '<div class="col-md-3 col-sm-6">' +
-    '<div class="work">' +
-    '<div class="image">' +
-    '<a href="' + post.link + '"><img alt="Work 1" src="' + post.image_uri +'"></a>' +
-    '</div>' +
-    '<div class="desc">' +
-    '<span class="desc-title">' + post.message.substr(0, 28) + '...</span>' +
-    '<span class="desc-text">Check it out</span>' +
-    '</div>' +
-    '</div>' +
-    '</div>';
+  var context = {
+    link: post.link,
+    uri: post.image_uri,
+    message: post.message.substr(0, 28),
+    action: 'Check it out'
+  }
+  output += Handlebars.templates.social(context);
   return output;
 }
 
