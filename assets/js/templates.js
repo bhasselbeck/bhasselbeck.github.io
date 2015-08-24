@@ -1,6 +1,168 @@
 (function() {
   var template = Handlebars.template, templates = Handlebars.templates = Handlebars.templates || {};
   templates['social'] = template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
-    return "\n<div class=\"row row-space-10\">\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\"http://www.gofundme.com/kdrjb9yw?pc=fb_cr_h\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_686629707342_0.jpg?itok=M52R1_2q\" alt=\"Work 1\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">For a great guy Jeffrey D Al</span>\n        <span class=\"desc-text\">Check it out</span>\n      </div>\n    </div>\n  </div><div class=\"col-md-3 col-sm-6\">\n  <div class=\"work\">\n    <div class=\"image\">\n      <a href=\"https://www.facebook.com/photo.php?fbid=685538419292&amp;set=a.513153914222.2017258.94100581&amp;type=1\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_685538419292_0.jpg?itok=_JFlpLaJ\" alt=\"Work 1\"></a>\n    </div>\n    <div class=\"desc\">\n      <span class=\"desc-title\">Was going to buy a motorcycl</span>\n      <span class=\"desc-text\">Check it out</span>\n    </div>\n  </div>\n</div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\"http://www.cincinnati.com/story/entertainment/2015/07/24/cincinnati-cincy-tshirt/30614331/\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_684694944622_0.jpg?itok=a3116bR2\" alt=\"Work 1\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">Cincy Threads made cincinnat</span>\n        <span class=\"desc-text\">Check it out</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\"https://www.facebook.com/photo.php?fbid=683598571762&amp;set=a.513153914222.2017258.94100581&amp;type=1\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_683598571762_0.jpg?itok=ByAoN4NG\" alt=\"Work 1\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">I've been posting a lot of m</span>\n        <span class=\"desc-text\">Check it out</span>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"row row-space-10\">\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\"https://m.youtube.com/watch?v=0WWzgGyAH6Y\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_683358348172_0.jpg?itok=Cs-V41C9\" alt=\"Work 1\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">... Okay, I might be on the </span>\n        <span class=\"desc-text\">Check it out</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\"https://www.facebook.com/photo.php?fbid=681020637962&amp;set=a.508812200052.2012909.94100581&amp;type=1\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_681020637962_0.jpg?itok=eH6sAKzn\" alt=\"Work 1\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">Finally finished it... But a</span>\n        <span class=\"desc-text\">Check it out</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\"https://www.facebook.com/photo.php?fbid=679538573032&amp;set=a.513153914222.2017258.94100581&amp;type=1\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_679538697782_0.jpg?itok=9bVnLMVm\" alt=\"Work 1\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">I think one more good sessio</span>\n        <span class=\"desc-text\">Check it out</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\"https://www.facebook.com/photo.php?fbid=678905137442&amp;set=a.513153914222.2017258.94100581&amp;type=1\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_678905137442_0.jpg?itok=VXaJbrb_\" alt=\"Work 1\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">One more round in... getting</span>\n        <span class=\"desc-text\">Check it out</span>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"row row-space-10\">\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\"https://www.facebook.com/photo.php?fbid=678622404042&amp;set=a.508812200052.2012909.94100581&amp;type=1\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_678622404042_0.jpg?itok=502Bk48w\" alt=\"Work 1\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">Had a blast at the Comedy Ce</span>\n        <span class=\"desc-text\">Check it out</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\"https://www.facebook.com/photo.php?fbid=678571012032&amp;set=a.508812200052.2012909.94100581&amp;type=1\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_678571012032_0.jpg?itok=ou_PccwS\" alt=\"Work 1\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">How about some dinner...... </span>\n        <span class=\"desc-text\">Check it out</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\"https://www.facebook.com/photo.php?fbid=672827996082&amp;set=a.508812200052.2012909.94100581&amp;type=1\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_672828050972_0.jpg?itok=Xm65RQmZ\" alt=\"Work 1\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">Here's my latest project....</span>\n        <span class=\"desc-text\">Check it out</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\"http://www.cnet.com/news/net-neutrality-a-reality-fcc-votes-to-bring-internet-under-utility-style-rules/\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_666813104972_0.jpg?itok=xbdWzZ6g\" alt=\"Work 1\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">#dontmesswiththeinternet Now</span>\n        <span class=\"desc-text\">Check it out</span>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"row row-space-10\">\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\"http://i.imgur.com/MCYUTU4.jpg\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_666785175942_0.jpg?itok=jv97rgsw\" alt=\"Work 1\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">All-star ticket prices... yo</span>\n        <span class=\"desc-text\">Check it out</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\"https://www.facebook.com/photo.php?fbid=666637152582&amp;set=a.513153914222.2017258.94100581&amp;type=1\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_666637342202_0.jpg?itok=V4Wc9ZEJ\" alt=\"Work 1\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">She's home sick, but living </span>\n        <span class=\"desc-text\">Check it out</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\"https://www.facebook.com/photo.php?fbid=665203455722&amp;set=a.508812200052.2012909.94100581&amp;type=1\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_665203505622_0.jpg?itok=who3Pi68\" alt=\"Work 1\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">Found this little gem from W</span>\n        <span class=\"desc-text\">Check it out</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\"http://www.theverge.com/2015/2/4/7977569/its-official-the-fcc-will-seek-to-reclassify-the-internet-as-a-utility\"><img src=\"http://api.bhasselbeck.local/sites/default/files/styles/800x600/public/687882042652_664392450982_0.jpg?itok=Kwi-nUqa\" alt=\"Work 1\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">I can't say this will end th</span>\n        <span class=\"desc-text\">Check it out</span>\n      </div>\n    </div>\n  </div>\n</div>";
+    var stack1, alias1=this.lambda, alias2=this.escapeExpression;
+
+    return "<div class=\"row row-space-10\">\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['0'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['0'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['0'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['0'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['0'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['1'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['1'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['1'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['1'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['1'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['2'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['2'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['2'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['2'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['2'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['3'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['3'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['3'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['3'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['3'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"row row-space-10\">\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['4'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['4'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['4'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['4'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['4'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['5'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['5'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['5'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['5'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['5'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['6'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['6'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['6'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['6'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['6'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['7'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['7'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['7'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['7'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['7'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"row row-space-10\">\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['8'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['8'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['8'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['8'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['8'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['9'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['9'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['9'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['9'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['9'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['10'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['10'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['10'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['10'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['10'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['11'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['11'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['11'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['11'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['11'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"row row-space-10\">\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['12'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['12'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['12'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['12'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['12'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['13'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['13'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['13'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['13'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['13'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['14'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['14'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['14'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['14'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['14'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"col-md-3 col-sm-6\">\n    <div class=\"work\">\n      <div class=\"image\">\n        <a href=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['15'] : depth0)) != null ? stack1.link : stack1), depth0))
+      + "\"><img src=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['15'] : depth0)) != null ? stack1.uri : stack1), depth0))
+      + "\" alt=\""
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['15'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "\"></a>\n      </div>\n      <div class=\"desc\">\n        <span class=\"desc-title\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['15'] : depth0)) != null ? stack1.title : stack1), depth0))
+      + "</span>\n        <span class=\"desc-text\">"
+      + alias2(alias1(((stack1 = (depth0 != null ? depth0['15'] : depth0)) != null ? stack1.action : stack1), depth0))
+      + "</span>\n      </div>\n    </div>\n  </div>\n</div>";
   },"useData":true});
 })();
