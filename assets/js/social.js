@@ -31,7 +31,7 @@ var social = function () {
           context[key] = {
             link: post.link,
             uri: post.image_uri,
-            message: post.message.substr(0, 28),
+            title: post.message.substr(0, 28),
             action: 'Check it out'
           }
         });
