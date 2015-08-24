@@ -1,5 +1,5 @@
 var SocialMedia = function() {
-  this.apiUrl = "http://api.bhasselbeck.local/v1";
+  this.apiUrl = "http://eebhasselbeckdev.prod.acquia-sites.com/v1";
 };
 
 SocialMedia.prototype.request = function(url, callback) {
