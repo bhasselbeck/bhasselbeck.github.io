@@ -1,5 +1,5 @@
 var SocialMedia = function() {
-  this.apiUrl = "http://eebhasselbeckdev.prod.acquia-sites.com/v1";
+  this.apiUrl = "http://api.bhasselbeck.local/v1";
 };
 
 SocialMedia.prototype.request = function(url, callback) {
@@ -26,16 +26,21 @@ var social = function () {
     init: function () {
       var request = new SocialMedia();
       request.getSocial('facebook', function(data) {
-        var context = {}
+        var output = '';
         $.each(data, function(key, post) {
-          context[key] = {
+          if (key % 4 === 0) {
+            if (key != 0) {
+              output += '</div>';
+            }
+            output += '<div class="row">';
+          }
+          output += Handlebars.templates.social({
             link: post.link,
             uri: post.image_uri,
-            title: post.message.substr(0, 28),
-            action: 'Check it out'
-          }
+            title: post.message,
+            platform: 'facebook'
+          });
         });
-        var output = Handlebars.templates.social(context);
         $("#life .container").append(output);
       });
     }
