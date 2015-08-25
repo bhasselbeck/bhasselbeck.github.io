@@ -661,6 +661,7 @@ body.page-navbar-fixed-top-sm {
 
 .service {
     margin-bottom: 30px;
+    min-height:95px;
 }
 .service .icon {
     float: left;
