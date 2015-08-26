@@ -1,3 +1,7 @@
 .service .icon + .info {
     min-height: 120px;
 }
+
+.header.navbar.navbar-inverse.navbar-small .brand-text, .header.navbar.navbar-transparent.navbar-small .brand-text {
+    color: #2d353c;
+}
