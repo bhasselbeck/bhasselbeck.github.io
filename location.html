@@ -327,8 +327,7 @@
     <script src="js/owlcarousel/owl.carousel.js"></script>
     <!-- Google Map -->
     <script src="js/openlayers.js"></script>
-    <script>
-        map = new OpenLayers.Map("map-canvas");
+    <script>map = new OpenLayers.Map("map-canvas");
         var lat = 32.7956355;
         var lon = -79.9633346;
         var mlat = 32.8041432;
@@ -336,7 +335,7 @@
         var zoom = 12;
         var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
         var toProjection = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
-        var position = new OpenLayers.LonLat(lon,lat).transform(fromProjection, toProjection);
+        var position = new OpenLayers.LonLat(lon, lat).transform(fromProjection, toProjection);
         var mposition = new OpenLayers.LonLat(mlon, mlat).transform(fromProjection, toProjection);
 
         var mapnik = new OpenLayers.Layer.OSM();
@@ -346,8 +345,7 @@
         map.addLayer(marker1);
         marker1.addMarker(new OpenLayers.Marker(mposition));
 
-        map.setCenter(position, zoom);
-    </script>
+        map.setCenter(position, zoom);</script>
     <!-- Slidebars -->
     <script src="js/slidebars/slidebars.js"></script>
 
@@ -356,6 +354,15 @@
     <!-- Custom Additional Script -->
     <script type="text/javascript" src="js/main-slider-fade.js"></script>
     <script type="text/javascript" src="js/side-navbar.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59779161-2"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-59779161-2');</script>
+
 
 </body>
 </html>
