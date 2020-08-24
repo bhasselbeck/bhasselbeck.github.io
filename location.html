@@ -326,15 +326,16 @@
     <!-- Owl Carousel -->
     <script src="js/owlcarousel/owl.carousel.js"></script>
     <!-- Google Map -->
-    <script src="js/openlayers.js"></script>
+    <script src="js/openlayers/OpenLayers.js"></script>
+
     <script>map = new OpenLayers.Map("map-canvas");
         var lat = 32.7956355;
         var lon = -79.9633346;
         var mlat = 32.8041432;
         var mlon = -79.9861906;
         var zoom = 12;
-        var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
-        var toProjection = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+        var fromProjection = new OpenLayers.Projection("EPSG:4326");
+        var toProjection = new OpenLayers.Projection("EPSG:900913"); 
         var position = new OpenLayers.LonLat(lon, lat).transform(fromProjection, toProjection);
         var mposition = new OpenLayers.LonLat(mlon, mlat).transform(fromProjection, toProjection);
 
@@ -346,6 +347,7 @@
         marker1.addMarker(new OpenLayers.Marker(mposition));
 
         map.setCenter(position, zoom);</script>
+        <script src="js/openlayers/OpenLayers.mobile.js"></script>
     <!-- Slidebars -->
     <script src="js/slidebars/slidebars.js"></script>
 
