@@ -533,7 +533,10 @@
     <!-- Custom Additional Script -->
     <script type="text/javascript" src="js/main-slider-fade.js"></script>
     <script type="text/javascript" src="js/side-navbar.js"></script>
-    <script type="text/javascript">$("#countdown").countdown({ until: new Date(2021, 9, 5) });</script>
+    <script type="text/javascript">
+        var weddingdate = new Date(2021, 08, 05);
+        $("#countdown").countdown({ until: weddingdate });
+    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59779161-2"></script>
