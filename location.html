@@ -138,7 +138,7 @@
             <!-- MAIN SLIDER IMAGES -->
             <div class="slides">
                 <!-- SLIDE IMAGE -->
-                <div data-stellar-ratio="0.5" class="slide-image" style="background-image:url(images/legare.full.jpg); background-position:center bottom">
+                <div data-stellar-ratio="0.5" class="slide-image" style="background-image:url(images/map.jpg); background-position:center bottom">
                 </div>
 
                 <div class="slide-overlay"> </div>
@@ -281,9 +281,46 @@
             </div> <!-- END of CONTAINER -->
 
         </section> <!--END of CONTENT SECTION-->
-
+        <!-- FOOTER SECTION -->
         <footer>
-            <div id="map-canvas" style="height:550px; width:100%;"></div>
+            <div class="image-divider fixed-height" style="background-image:url(images/ring.jpg);" data-stellar-background-ratio="0.5">
+
+                <div class="divider-overlay"></div>
+
+                <!-- Use Center Middle Alignment to align middle the content for fixed-height parallax -->
+                <div class="alignment">
+                    <div class="v-align center-middle">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <div class="animation fadeInUp">
+                                        <div id="thank-you">
+                                            <div id="thank">Thank</div>
+                                            <div id="you">You</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="heart-divider animation delay1 fadeInUp">
+                                        <span class="white-line"></span>
+                                        <i class="de-icon-heart pink-heart"></i>
+                                        <i class="de-icon-heart white-heart"></i>
+                                        <span class="white-line"></span>
+                                    </div>
+
+                                    <div id="footer-couple-name" class="animation delay1 fadeInUp">
+                                        BRIAN & BRITTANY
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
         </footer>
 
     </div>  <!-- END of SLIDEBAR CONTENT WRAPPER -->
@@ -325,29 +362,6 @@
     <script src="js/magnific-popup/jquery.magnific-popup.js"></script>
     <!-- Owl Carousel -->
     <script src="js/owlcarousel/owl.carousel.js"></script>
-    <!-- Google Map -->
-    <script src="js/openlayers/OpenLayers.js"></script>
-
-    <script>map = new OpenLayers.Map("map-canvas");
-        var lat = 32.7956355;
-        var lon = -79.9633346;
-        var mlat = 32.8041432;
-        var mlon = -79.9861906;
-        var zoom = 12;
-        var fromProjection = new OpenLayers.Projection("EPSG:4326");
-        var toProjection = new OpenLayers.Projection("EPSG:900913"); 
-        var position = new OpenLayers.LonLat(lon, lat).transform(fromProjection, toProjection);
-        var mposition = new OpenLayers.LonLat(mlon, mlat).transform(fromProjection, toProjection);
-
-        var mapnik = new OpenLayers.Layer.OSM();
-        map.addLayer(mapnik);
-
-        var marker1 = new OpenLayers.Layer.Markers("Markers");
-        map.addLayer(marker1);
-        marker1.addMarker(new OpenLayers.Marker(mposition));
-
-        map.setCenter(position, zoom);</script>
-        <script src="js/openlayers/OpenLayers.mobile.js"></script>
     <!-- Slidebars -->
     <script src="js/slidebars/slidebars.js"></script>
 
