@@ -51,6 +51,26 @@
 </head>
 
 <body>
+    <!--PRELOADER-->
+    <div id="preloader">
+
+        <div class="alignment">
+            <div class="v-align center-middle">
+
+                <!-- LEFT HEART -->
+                <div class="heart-animation">
+                    <i class="de-icon-heart"></i>
+                </div>
+
+                <!-- RIGHT HEART -->
+                <div class="heart-animation-reverse">
+                    <i class="de-icon-heart"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </div> <!--END of PRELOADER-->
     <!-- SIDE NAVBAR -->
     <nav class="sb-slidebar sb-right sb-style-push">
 
@@ -63,10 +83,13 @@
 
         <ul id="side-nav-menu">
             <li>
-                <a href="#">HOME</a>
+                <a>HOME</a>
             </li>
             <li>
                 <a href="location.html">LOCATION</a>
+            </li>
+            <li>
+                <a href="registry.html">GIFT REGISTRY</a>
             </li>
         </ul>
 
@@ -536,10 +559,8 @@
     <!-- Custom Additional Script -->
     <script type="text/javascript" src="js/main-slider-fade.js"></script>
     <script type="text/javascript" src="js/side-navbar.js"></script>
-    <script type="text/javascript">
-        var weddingdate = new Date(2021, 08, 05);
-        $("#countdown").countdown({ until: weddingdate });
-    </script>
+    <script type="text/javascript">var weddingdate = new Date(2021, 08, 05);
+        $("#countdown").countdown({ until: weddingdate });</script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59779161-2"></script>
