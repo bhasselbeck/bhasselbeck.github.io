@@ -231,6 +231,10 @@
   margin-bottom: 70px;
   clear: both;
 }
+.timeline-centered .timeline-entry p {
+	font-size:11px;
+	line-height:18px;
+}
 .timeline-centered .timeline-entry:before,
 .timeline-centered .timeline-entry:after {
   content: " ";
