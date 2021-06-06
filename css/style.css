@@ -235,6 +235,17 @@
 	font-size:11px;
 	line-height:18px;
 }
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+	.timeline-centered .timeline-entry p {
+		font-size:8px;
+		line-height:15px;
+	}
+}
 .timeline-centered .timeline-entry:before,
 .timeline-centered .timeline-entry:after {
   content: " ";
