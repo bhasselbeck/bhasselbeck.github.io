@@ -8,19 +8,19 @@
     <display-name>67</display-name>
     <icon src="https://raw.githubusercontent.com/bhasselbeck/bhasselbeck.github.io/master/channels/logo.png" />
   </channel>
-  <programme start="20220323003000 -0400" stop="20220323010000 -0400" channel="Porch">
+  <programme start="20220323103000 -0500" stop="20220323110000 -0500" channel="Porch">
     <title lang="en">NOW on PBS</title>
   </programme>
-  <programme start="20220323010000 -0400" stop="20220323023000 -0400" channel="Porch">
+  <programme start="20220323110000 -0500" stop="20220323123000 -0500" channel="Porch">
     <title lang="en">Mystery!</title>
   </programme>
-  <programme start="20220323023000 -0400" stop="20220323040000 -0400" channel="Porch">
+  <programme start="20220323123000 -0500" stop="20220323140000 -0500" channel="Porch">
     <title lang="en">Mystery!</title>
   </programme>
-  <programme start="20220323040000 -0400" stop="20220323043000 -0400" channel="Porch">
+  <programme start="20220323140000 -0500" stop="20220323143000 -0500" channel="Porch">
     <title lang="en">BBC World News</title>
   </programme>
-  <programme start="20220323043000 -0400" stop="20220323050000 -0400" channel="Porch">
+  <programme start="20220323143000 -0500" stop="20220323150000 -0400" channel="Porch">
     <title lang="en">Sit and Be Fit</title>
   </programme>
 </tv>
