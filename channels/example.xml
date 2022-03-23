@@ -4,51 +4,23 @@
 <tv generator-info-url="http://www.xmltv.org/">
   <channel id="Porch">
     <display-name>912 Mary St</display-name>
+    <display-name>912MS</display-name>
+    <display-name>67</display-name>
     <icon src="https://raw.githubusercontent.com/bhasselbeck/bhasselbeck.github.io/master/channels/logo.png" />
   </channel>
-  <programme start="20220323003000" stop="20220323010000" channel="Porch">
+  <programme start="20220323003000 -0400" stop="20220323010000 -0400" channel="Porch">
     <title lang="en">NOW on PBS</title>
-    <desc lang="en">Jordan's Queen Rania has made job creation a priority to help curb the staggering unemployment rates among youths in the Middle East.</desc>
-    <category lang="en">Newsmagazine</category>
-    <category lang="en">Interview</category>
-    <category lang="en">Public affairs</category>
-    <category lang="en">Series</category>
-    <episode-num system="dd_progid">EP01006886.0028</episode-num>
-    <episode-num system="onscreen">427</episode-num>
   </programme>
-  <programme start="20220323010000" stop="20220323023000" channel="Porch">
+  <programme start="20220323010000 -0400" stop="20220323023000 -0400" channel="Porch">
     <title lang="en">Mystery!</title>
-    <sub-title lang="en">Foyle's War, Series IV: Bleak Midwinter</sub-title>
-    <desc lang="en">Foyle investigates an explosion at a munitions factory, which he comes to believe may have been premeditated.</desc>
-    <category lang="en">Anthology</category>
-    <category lang="en">Mystery</category>
-    <category lang="en">Series</category>
-    <episode-num system="dd_progid">EP00003026.0665</episode-num>
-    <episode-num system="onscreen">2705</episode-num>
   </programme>
-  <programme start="20220323023000" stop="20220323040000" channel="Porch">
+  <programme start="20220323023000 -0400" stop="20220323040000 -0400" channel="Porch">
     <title lang="en">Mystery!</title>
-    <sub-title lang="en">Foyle's War, Series IV: Casualties of War</sub-title>
-    <desc lang="en">The murder of a prominent scientist may have been due to a gambling debt.</desc>
-    <category lang="en">Anthology</category>
-    <category lang="en">Mystery</category>
-    <category lang="en">Series</category>
-    <episode-num system="dd_progid">EP00003026.0666</episode-num>
-    <episode-num system="onscreen">2706</episode-num>
   </programme>
-  <programme start="20220323040000" stop="20220323043000" channel="Porch">
+  <programme start="20220323040000 -0400" stop="20220323043000 -0400" channel="Porch">
     <title lang="en">BBC World News</title>
-    <desc lang="en">International issues.</desc>
-    <category lang="en">News</category>
-    <category lang="en">Series</category>
-    <episode-num system="dd_progid">SH00315789.0000</episode-num>
-    <previously-shown />
   </programme>
-  <programme start="20220323043000" stop="20220323050000" channel="Porch">
+  <programme start="20220323043000 -0400" stop="20220323050000 -0400" channel="Porch">
     <title lang="en">Sit and Be Fit</title>
-    <category lang="en">Exercise</category>
-    <category lang="en">Series</category>
-    <episode-num system="dd_progid">EP00003847.0074</episode-num>
-    <episode-num system="onscreen">901</episode-num>
   </programme>
 </tv>
